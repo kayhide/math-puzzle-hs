@@ -33,6 +33,7 @@ dependencies:
 - exceptions
 - classy-prelude
 - microlens
+- formatting
 
 default-extensions:
 - AutoDeriveTypeable
