@@ -82,3 +82,10 @@ executables:
   q02:
     source-dirs:      src
     main:             Main.hs
+
+tests:
+  doctest:
+    source-dirs:      test
+    main:             doctest.hs
+    dependencies:
+    - doctest
